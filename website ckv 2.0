@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handendansoptreden De Boys</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Aanvullende stijlen */
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Handendansoptreden De Boys</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kaartjes Kopen</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1>Welkom bij het Handendansoptreden van De Boys!</h1>
+    <p>Kom en geniet van een fantastische show.</p>
+    <button id="buyTicketsBtn" class="btn btn-primary">Kaartjes Kopen (€24,95)</button>
+  </div>
+
+  <!-- Bootstrap JS en jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- JavaScript voor interactie -->
+  <script>
+    document.getElementById("buyTicketsBtn").addEventListener("click", function() {
+      alert("Bedankt voor uw interesse! Kaartjes zijn nu te koop voor €24,95.");
+      // Hier kun je verdere acties uitvoeren, bijvoorbeeld doorverwijzen naar een pagina voor kaartjesverkoop.
+    });
+  </script>
+</body>
+</html>
